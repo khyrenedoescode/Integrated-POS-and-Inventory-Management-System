@@ -4,91 +4,106 @@
   <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white" />
   <img src="https://img.shields.io/badge/.NET-Windows%20Forms-512BD4?style=flat&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/Database-SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat" />
+  <img src="https://img.shields.io/badge/Architecture-Desktop%20Application-0078D4?style=flat" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat" />
 </p>
 
 <p align="center">
-  A modern desktop-based Point of Sale (POS) and Inventory Management System built with C# and Windows Forms — enhanced and customized as part of my software development portfolio.
+  A desktop-based Point of Sale (POS) and Inventory Management System built with <strong>C#</strong>, <strong>Windows Forms</strong>, and <strong>Microsoft SQL Server</strong>. This repository showcases my work in enhancing, refining, and extending an existing retail management system as part of my software development portfolio.
 </p>
 
 ---
 
-## Table of Contents
+# Table of Contents
+
 - [About This Project](#about-this-project)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [My Contributions](#my-contributions)
-- [Learning Objectives](#learning-objectives)
+- [Development Highlights](#development-highlights)
+- [Learning Outcomes](#learning-outcomes)
 - [Disclaimer](#disclaimer)
 - [Author](#author)
 
 ---
 
-## About This Project
+# About This Project
 
-This repository showcases my work in **customizing, enhancing, and innovating** an existing Point of Sale and Inventory Management System. Rather than building the application entirely from scratch, I focused on improving its functionality, refining the user interface, optimizing workflows, and extending several features to create a more polished, user-friendly retail management solution.
+This repository demonstrates my ability to **analyze, improve, and extend an existing software application**.
 
-This project reflects my hands-on experience with desktop applications, database management, and software customization using **C#** and **Microsoft SQL Server**.
+Rather than building the system entirely from scratch, I focused on enhancing the application's functionality, refining the user experience, modernizing the interface, and improving overall usability. Through this project, I gained valuable experience working with an existing codebase while implementing meaningful improvements and additional functionality.
+
+This project reflects my practical experience in desktop application development using **C#**, **Windows Forms**, **ADO.NET**, and **Microsoft SQL Server**.
 
 ---
 
-## Key Features
+# Key Features
 
 <table>
 <tr>
 <td valign="top" width="50%">
 
-### Point of Sale
+## Point of Sale
+
 - Fast cashier interface
 - Product search
 - Barcode scanning & generation
 - Shopping cart management
 - Payment processing
 - Receipt printing
-- Order cancellation & transaction voiding
+- Transaction cancellation
+- Sales processing
 
-### Inventory Management
-- Category, brand & product management
+## Inventory Management
+
+- Product management
+- Category management
+- Brand management
 - Supplier management
-- Stock in & stock adjustment
-- Stock monitoring & critical stock alerts
-- Inventory reports
+- Stock In
+- Stock Adjustment
+- Inventory monitoring
+- Critical stock alerts
 
 </td>
 <td valign="top" width="50%">
 
-### User Management
-- Secure login
-- User roles & permissions
-- Password management
-- Store information settings
+## User Management
 
-### Reports & Analytics
+- Secure login
+- User account management
+- Password management
+- Store configuration
+
+## Reports & Analytics
+
 - Dashboard overview
-- Daily sales report & sales history
-- POS records
+- Daily sales reports
+- Sales history
+- POS transaction records
+- Inventory reports
+- Critical stock reports
 - Top-selling products
-- Critical stock report
-- Printable inventory reports
 
 </td>
 </tr>
 </table>
 
 ### Additional Features
+
 - Modern flat UI design
-- Real-time notifications & alerts
+- Barcode integration
 - Reference number generator
 - Print preview & receipt printing
-- Barcode integration
+- Real-time stock monitoring
+- Notification alerts
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 | Layer | Technology |
-|---|---|
+| --- | --- |
 | **Language** | C# |
 | **Framework** | Windows Forms (.NET Framework) |
 | **Database** | Microsoft SQL Server |
@@ -96,68 +111,83 @@ This project reflects my hands-on experience with desktop applications, database
 
 ---
 
-## Getting Started
+# Getting Started
 
-### Prerequisites
-- Windows OS
+## Prerequisites
+
+- Windows Operating System
 - Visual Studio (2019 or later recommended)
-- .NET Framework installed
+- .NET Framework
 - Microsoft SQL Server (Express or higher)
 
-### Installation
+## Installation
+
 1. Clone the repository
-   ```bash
-   git clone https://github.com/khyrenedoescode/Integrated-POS-and-Inventory-Management-System.git
-   ```
-2. Open the solution file (`.sln`) in Visual Studio
-3. Restore the database using the provided `.bak` / `.sql` file in the `/database` folder
-4. Update the connection string in the app's config file to match your local SQL Server instance
-5. Build and run the project
+
+```bash
+git clone https://github.com/khyrenedoescode/Integrated-POS-and-Inventory-Management-System.git
+```
+
+2. Open the solution file (`POSales.sln`) in Visual Studio.
+
+3. Restore the provided SQL Server database.
+
+4. Update the application's connection string to match your SQL Server instance.
+
+5. Build and run the project.
 
 ---
 
-## My Contributions
+# Development Highlights
 
 Throughout this project, I focused on:
-- Enhancing the user interface and overall user experience
-- Improving system workflows
-- Refining existing modules
-- Adding feature improvements
-- Optimizing inventory management
-- Improving reporting functionality
+
+- Enhancing the overall user interface and user experience
+- Improving existing system workflows
+- Refining application modules
+- Extending inventory management functionality
+- Improving report generation
 - Enhancing barcode-related features
-- General bug fixes and performance improvements
+- Fixing bugs and improving application stability
+- Optimizing usability and overall system performance
 
 ---
 
-## Learning Objectives
+# Learning Outcomes
 
-This project allowed me to strengthen my skills in:
-- Desktop application development
-- Object-oriented programming
-- SQL Server database design
-- CRUD operations
-- Inventory & point-of-sale systems
-- UI/UX design
-- Software customization
+This project strengthened my knowledge and experience in:
+
+- Desktop Application Development
+- Object-Oriented Programming (OOP)
+- Windows Forms Development
+- Microsoft SQL Server
+- ADO.NET
+- CRUD Operations
+- Inventory Management Systems
+- Point of Sale Systems
+- Software Maintenance & Enhancement
+- UI/UX Design Principles
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 This project is **not an original application built entirely from scratch**. It is an enhanced and customized version of an existing Point of Sale and Inventory Management System.
 
-The purpose of this repository is to showcase my ability to analyze, improve, customize, and extend existing software solutions as part of my software development journey.
+The purpose of this repository is to demonstrate my ability to understand an existing codebase, implement meaningful improvements, refine functionality, and extend software solutions as part of my software development portfolio.
 
 ---
 
-## Author
+# Author
 
 **Khyrene Mae Utanes**
+
 Aspiring Full Stack & Mobile Developer passionate about building modern, practical, and user-friendly software solutions.
 
 [![GitHub](https://img.shields.io/badge/GitHub-khyrenedoescode-181717?style=flat&logo=github)](https://github.com/khyrenedoescode)
 
 ---
 
-<p align="center">If you found this project interesting, feel free to leave a star.</p>
+<p align="center">
+If you found this project interesting, ⭐ feel free to leave a star.
+</p>
